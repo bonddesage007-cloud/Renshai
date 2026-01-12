@@ -1,0 +1,133 @@
+/* Reset browser weird spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Page background */
+body {
+  background: url('beyondragnarok.jpg');
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  /* Keep it fixed when scrolling */
+  background-attachment: fixed;
+  /* Center the image */
+  background-position: center;
+  /* Optional: make text readable */
+  color: rgb(43, 41, 41);
+}
+
+/* Main container */
+.container {
+  background: rgb(216, 198, 198);
+  width: 80%;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #1f4037;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Images */
+img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+button {
+  background: #1f4037;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0c241d;
+  transform: scale(1.05);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background: #a5c0b9;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Form inputs */
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.btn {
+  background: #1f4037;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none; /* remove underline */
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s ease
+}
+
+.btn:hover {
+  background: #0c241d;
+}
+
+nav {
+  background: #1f4037;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #99f2c8;
+}
